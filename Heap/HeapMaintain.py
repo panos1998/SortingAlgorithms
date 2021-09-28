@@ -24,7 +24,6 @@ def maxheapconstruct(a):
 
 
 array = [16, 4, 10, 14, 7, 9, 3, 2, 9, 1]
-maxheapconstruct(array)
 
 def heapsort(a):
     for i in range(len(a)-1, 1, -1):
