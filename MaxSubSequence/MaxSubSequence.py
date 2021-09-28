@@ -18,5 +18,5 @@ def maxsubsequence(array, down, up):
             return both_down, both_up, both_sum
 
 
-A = [13, -3, -25, 20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7]
+A = [-5, -1, 0, 2, 7]
 print(maxsubsequence(A, 0, len(A)-1))
