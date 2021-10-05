@@ -14,5 +14,5 @@ def dynamicrod(p, n):
     return r[n] # return the last element of r == the best solution for last element == the best solution for whole problem
 
 
-x = dynamicrod(value, 10)
+x = dynamicrod(value, len(value))
 print(x)
