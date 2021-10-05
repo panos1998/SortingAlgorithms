@@ -10,8 +10,8 @@ def dynamicrod(p, n):
         q = -math.inf
         for i in range(j): # for each bar element from start to  selected element p[j]
             q = max(q, p[i] + r[j-1-i]) # solve the subproblems
-        r[j] = q
-    return r[n]
+        r[j] = q # save best solution for current element p[j] inside r
+    return r[n] # return the last element of r == the best solution for last element == the best solution for whole problem
 
 
 x = dynamicrod(value, 10)
